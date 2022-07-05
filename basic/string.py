@@ -43,8 +43,12 @@ print("\U0001f647")
 numeric_value ==> snake_case_writing  (recc for python)
 numericValue ==> cameCaseWriting
 '''
-numeric_value = 11
-print("the first value of a is: -->",numeric_value)
-fruit_name="Apple"
-print("the second value of a is: -->",fruit_name)
+# numeric_value = 11
+# print("the first value of a is: -->",numeric_value)
+# fruit_name="Apple"
+# print("the second value of a is: -->",fruit_name)
 
+
+
+user_provided_fruit = input("Please provide me your fav fruit:-->")
+print("Your favroite fruit is: -->",user_provided_fruit)
