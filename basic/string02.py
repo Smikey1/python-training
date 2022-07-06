@@ -1,0 +1,5 @@
+first_name,second_name = input("Pleae provide your fav fruit (comma seprated):").split(",")
+name_type= type(first_name)
+print("your full name is-->"+ first_name+" "+second_name)
+print(name_type)
+# print("type of first name is:-->"+ name_type)
