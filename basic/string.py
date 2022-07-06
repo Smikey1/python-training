@@ -50,8 +50,8 @@ numericValue ==> cameCaseWriting
 
 
 
-# user_provided_fruit = input("Please provide me your fav fruit:-->")
-# print("Your favroite fruit is: -->",user_provided_fruit)
+user_provided_fruit = input("Please provide me your fav fruit:-->")
+print("Your favroite fruit is: -->",user_provided_fruit)
 
 
 user_first_name = input("Please provide me your first name:-->")
