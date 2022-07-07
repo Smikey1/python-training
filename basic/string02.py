@@ -5,6 +5,7 @@ print(name_type)
 # print("type of first name is:-->"+ name_type)
 '''
 # String Indexing
+from dataclasses import replace
 from numpy import place
 
 
@@ -35,10 +36,30 @@ print(f"Your fullname is {fullname} and '{char}' character count is {char_count}
 '''
 
 # solved problem with spaces:  lstrip(),rstrip(),strip()
-spaces_problem = "      aarayama     "
+spaces_problem = "      aar     ayama     "
 stars = "**********"
 print(stars+spaces_problem+stars)
 print(stars+spaces_problem.lstrip()+stars)
 print(stars+spaces_problem.rstrip()+stars)
 print(stars+spaces_problem.strip()+stars)
+solved_problem = spaces_problem.replace(" ","")
+print(f"The solve of space problem is:{solved_problem}")
 
+replace_example = "Kritita is a beautiful and she is out standing."
+print(replace_example.replace("is","was",1))
+print(replace_example.find("is",1))
+
+
+# center() method
+example2="python"   #6 char
+print(example2.center(4+6+4,"*"))
+
+## String are immutable and assignment operator
+example3 = "any"
+# example3[1]="N"  # can't do because of immutable
+replaced_exampe = example3.replace("n","N")
+print(replaced_exampe)
+
+# example3 = example3 + "body"
+example3 += "body"
+print(example3)
